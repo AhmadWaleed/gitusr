@@ -22,7 +22,7 @@ const (
 
 func usage() {
 	format := `Usage:
-  usegit [flags]
+  gitusr [flags]
 
 Flags:
   --global              Set user as global.
