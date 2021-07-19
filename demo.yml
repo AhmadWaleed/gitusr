@@ -1,0 +1,247 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/ahmedwaleed/.go/src/github.com/AhmadWaleed/use-git
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 190
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 49
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 452
+    content: "\r\nThe default interactive shell is now zsh.\r\nTo update your account to use zsh, please run `chsh -s /bin/zsh`.\r\nFor more details, please visit https://support.apple.com/kb/HT208050.\r\n\e[?1034hahmedwaleeds-MacBook-Pro:use-git ahmedwaleed$ "
+  - delay: 313
+    content: "\e[H\e[2Jahmedwaleeds-MacBook-Pro:use-git ahmedwaleed$ "
+  - delay: 2459
+    content: g
+  - delay: 120
+    content: i
+  - delay: 89
+    content: t
+  - delay: 361
+    content: u
+  - delay: 92
+    content: s
+  - delay: 189
+    content: 'r '
+  - delay: 1084
+    content: "\r\n"
+  - delay: 6
+    content: "\e[?25l\e[2K\r\e[2mUse the arrow keys to navigate:\e[0m \e[2m↓\e[0m \e[2m↑\e[0m \e[2m→\e[0m \e[2m←\e[0m \r\n\e[2K\r\e[34m?\e[0m Select action: \r\n\e[2K\r  \e[1m▸\e[0m \e[4mSelect a git user\e[0m\r\n\e[2K\r    Add a new git user\r\n\e[2K\r    Delete an existing git user\r\n\e[J\e[2K\r \b"
+  - delay: 1569
+    content: "\a\e[J\e[2K\r\e[1A\e[1A\e[1A\e[1A\e[1A\e[2K\r\e[2mUse the arrow keys to navigate:\e[0m \e[2m↓\e[0m \e[2m↑\e[0m \e[2m→\e[0m \e[2m←\e[0m \e[1B\e[2K\r\e[34m?\e[0m Select action: \e[1B\e[2K\r    Select a git user\e[1B\e[2K\r  \e[1m▸\e[0m \e[4mAdd a new git user\e[0m\e[1B\e[2K\r    Delete an existing git user\e[1B \b\e[J\e[2K\r \b"
+  - delay: 810
+    content: "\e[J\e[2K\r \b\e[J\e[2K\r \b\e[1A\e[2K\r\e[1A\e[2K\r\e[1A\e[2K\r\e[1A\e[2K\r\e[1A\e[2K\r\e[2K\r\e[32m\e[32m✔\e[0m \e[2mAdd a new git user\e[0m\r\n\e[?25h\e[J\e[2K\r\e[?25l\e[2K\r\e[1m\e[32m✔\e[0m \e[1mEnter git user name\e[0m\e[1m:\e[0m █\r\n\e[J\e[2K\r \b"
+  - delay: 988
+    content: "\e[J\e[2K\rj\e[J\e[2K\r\e[1A\e[2K\r\e[2K\r\e[1m\e[32m✔\e[0m \e[1mEnter git user name\e[0m\e[1m:\e[0m j█\r\nj\e[J\e[2K\r \b"
+  - delay: 120
+    content: "\e[J\e[2K\ro\e[J\e[2K\r\e[1A\e[2K\r\e[2K\r\e[1m\e[32m✔\e[0m \e[1mEnter git user name\e[0m\e[1m:\e[0m jo█\r\no\e[J\e[2K\r \b"
+  - delay: 150
+    content: "\e[J\e[2K\rh\e[J\e[2K\r\e[1A\e[2K\r\e[2K\r\e[1m\e[32m✔\e[0m \e[1mEnter git user name\e[0m\e[1m:\e[0m joh█\r\nh\e[J\e[2K\r \b"
+  - delay: 329
+    content: "\e[J\e[2K\rn\e[J\e[2K\r\e[1A\e[2K\r\e[2K\r\e[1m\e[32m✔\e[0m \e[1mEnter git user name\e[0m\e[1m:\e[0m john█\r\nn\e[J\e[2K\r \b"
+  - delay: 2163
+    content: "\e[J\e[2K\r \b\e[J\e[2K\r\e[1A\e[2K\r\e[2K\r\e[1m\e[32m✔\e[0m \e[1mEnter git user name\e[0m\e[1m:\e[0m john█\r\n\e[1A\e[2K\r\e[2K\r\e[2mEnter git user name\e[0m\e[2m:\e[0m john\r\n\e[?25h\e[?25l\e[2K\r\e[1m\e[31m✗\e[0m \e[1mEnter git user email\e[0m\e[1m:\e[0m █\r\n\e[J\e[2K\r \b"
+  - delay: 732
+    content: "\e[J\e[2K\rj\e[J\e[2K\r\e[1A\e[2K\r\e[2K\r\e[1m\e[31m✗\e[0m \e[1mEnter git user email\e[0m\e[1m:\e[0m j█\r\nj\e[J\e[2K\r \b"
+  - delay: 722
+    content: "\e[J\e[2K\r@\e[J\e[2K\r\e[1A\e[2K\r\e[2K\r\e[1m\e[31m✗\e[0m \e[1mEnter git user email\e[0m\e[1m:\e[0m j@█\r\n@\e[J\e[2K\r \b"
+  - delay: 989
+    content: "\e[J\e[2K\rd\e[J\e[2K\r\e[1A\e[2K\r\e[2K\r\e[1m\e[31m✗\e[0m \e[1mEnter git user email\e[0m\e[1m:\e[0m j@d█\r\nd\e[J\e[2K\r \b"
+  - delay: 59
+    content: "\e[J\e[2K\ro\e[J\e[2K\r\e[1A\e[2K\r\e[2K\r\e[1m\e[31m✗\e[0m \e[1mEnter git user email\e[0m\e[1m:\e[0m j@do█\r\no\e[J\e[2K\r \b"
+  - delay: 119
+    content: "\e[J\e[2K\re\e[J\e[2K\r\e[1A\e[2K\r\e[2K\r\e[1m\e[31m✗\e[0m \e[1mEnter git user email\e[0m\e[1m:\e[0m j@doe█\r\ne\e[J\e[2K\r \b"
+  - delay: 119
+    content: "\e[J\e[2K\r.\e[J\e[2K\r\e[1A\e[2K\r\e[2K\r\e[1m\e[31m✗\e[0m \e[1mEnter git user email\e[0m\e[1m:\e[0m j@doe.█\r\n.\e[J\e[2K\r \b"
+  - delay: 182
+    content: "\e[J\e[2K\rc\e[J\e[2K\r\e[1A\e[2K\r\e[2K\r\e[1m\e[31m✗\e[0m \e[1mEnter git user email\e[0m\e[1m:\e[0m j@doe.c█\r\nc\e[J\e[2K\r \b"
+  - delay: 135
+    content: "\e[J\e[2K\ro\e[J\e[2K\r\e[1A\e[2K\r\e[2K\r\e[1m\e[32m✔\e[0m \e[1mEnter git user email\e[0m\e[1m:\e[0m j@doe.co█\r\no\e[J\e[2K\r \b"
+  - delay: 120
+    content: "\e[J\e[2K\rm\e[J\e[2K\r\e[1A\e[2K\r\e[2K\r\e[1m\e[32m✔\e[0m \e[1mEnter git user email\e[0m\e[1m:\e[0m j@doe.com█\r\nm\e[J\e[2K\r \b"
+  - delay: 1934
+    content: "\e[J\e[2K\r \b\e[J\e[2K\r\e[1A\e[2K\r\e[2K\r\e[1m\e[32m✔\e[0m \e[1mEnter git user email\e[0m\e[1m:\e[0m j@doe.com█\r\n\e[1A\e[2K\r\e[2K\r\e[2mEnter git user email\e[0m\e[2m:\e[0m j@doe.com\r\n\e[?25h\e[?25l\e[2K\r\e[1m\e[32m✔\e[0m \e[1mEnter ssh key file path, default: (/Users/ahmedwaleed/.ssh/id_rsa)\e[0m\e[1m:\e[0m █\r\n\e[J\e[2K\r \b"
+  - delay: 3270
+    content: "\e[J\e[2K\r \b\e[J\e[2K\r\e[1A\e[2K\r\e[2K\r\e[1m\e[32m✔\e[0m \e[1mEnter ssh key file path, default: (/Users/ahmedwaleed/.ssh/id_rsa)\e[0m\e[1m:\e[0m █\r\n\e[1A\e[2K\r\e[2K\r\e[2mEnter ssh key file path, default: (/Users/ahmedwaleed/.ssh/id_rsa)\e[0m\e[2m:\e[0m \r\n\e[?25hahmedwaleeds-MacBook-Pro:use-git ahmedwaleed$ "
+  - delay: 2457
+    content: g
+  - delay: 119
+    content: i
+  - delay: 106
+    content: t
+  - delay: 171
+    content: "\a"
+  - delay: 715
+    content: u
+  - delay: 104
+    content: s
+  - delay: 166
+    content: r
+  - delay: 704
+    content: "\r\n"
+  - delay: 7
+    content: "\e[?25l\e[2K\r\e[2mUse the arrow keys to navigate:\e[0m \e[2m↓\e[0m \e[2m↑\e[0m \e[2m→\e[0m \e[2m←\e[0m \r\n\e[2K\r\e[34m?\e[0m Select action: \r\n\e[2K\r  \e[1m▸\e[0m \e[4mSelect a git user\e[0m\r\n\e[2K\r    Add a new git user\r\n\e[2K\r    Delete an existing git user\r\n\e[J\e[2K\r \b"
+  - delay: 2243
+    content: "\e[J\e[2K\r \b\e[J\e[2K\r \b\e[1A\e[2K\r\e[1A\e[2K\r\e[1A\e[2K\r\e[1A\e[2K\r\e[1A\e[2K\r\e[2K\r\e[32m\e[32m✔\e[0m \e[2mSelect a git user\e[0m\r\n\e[?25h\e[J\e[2K\r\e[?25l\e[2K\r\e[2mUse the arrow keys to navigate:\e[0m \e[2m↓\e[0m \e[2m↑\e[0m \e[2m→\e[0m \e[2m←\e[0m \r\n\e[2K\r\e[34m?\e[0m Select a git user: \r\n\e[2K\r  \e[1m▸\e[0m \e[4mahmadwaleed\t<ahmed_waleed1@hotmail.com> (/Users/ahmedwaleed/.ssh/id_rsa)\e[0m\r\n\e[2K\r    john\t<j@doe.com> (/Users/ahmedwaleed/.ssh/id_rsa)\r\n\e[J\e[2K\r \b"
+  - delay: 808
+    content: "\a\e[J\e[2K\r\e[1A\e[1A\e[1A\e[1A\e[2K\r\e[2mUse the arrow keys to navigate:\e[0m \e[2m↓\e[0m \e[2m↑\e[0m \e[2m→\e[0m \e[2m←\e[0m \e[1B\e[2K\r\e[34m?\e[0m Select a git user: \e[1B\e[2K\r    ahmadwaleed\t<ahmed_waleed1@hotmail.com> (/Users/ahmedwaleed/.ssh/id_rsa)\e[1B\e[2K\r  \e[1m▸\e[0m \e[4mjohn\t<j@doe.com> (/Users/ahmedwaleed/.ssh/id_rsa)\e[0m\e[1B \b\e[J\e[2K\r \b"
+  - delay: 450
+    content: "\a\e[J\e[2K\r\e[1A\e[1A\e[1A\e[1A\e[2K\r\e[2mUse the arrow keys to navigate:\e[0m \e[2m↓\e[0m \e[2m↑\e[0m \e[2m→\e[0m \e[2m←\e[0m \e[1B\e[2K\r\e[34m?\e[0m Select a git user: \e[1B\e[2K\r  \e[1m▸\e[0m \e[4mahmadwaleed\t<ahmed_waleed1@hotmail.com> (/Users/ahmedwaleed/.ssh/id_rsa)\e[0m\e[1B\e[2K\r    john\t<j@doe.com> (/Users/ahmedwaleed/.ssh/id_rsa)\e[1B \b\e[J\e[2K\r \b"
+  - delay: 449
+    content: "\a\e[J\e[2K\r\e[1A\e[1A\e[1A\e[1A\e[2K\r\e[2mUse the arrow keys to navigate:\e[0m \e[2m↓\e[0m \e[2m↑\e[0m \e[2m→\e[0m \e[2m←\e[0m \e[1B\e[2K\r\e[34m?\e[0m Select a git user: \e[1B\e[2K\r    ahmadwaleed\t<ahmed_waleed1@hotmail.com> (/Users/ahmedwaleed/.ssh/id_rsa)\e[1B\e[2K\r  \e[1m▸\e[0m \e[4mjohn\t<j@doe.com> (/Users/ahmedwaleed/.ssh/id_rsa)\e[0m\e[1B \b\e[J\e[2K\r \b"
+  - delay: 421
+    content: "\a\e[J\e[2K\r\e[1A\e[1A\e[1A\e[1A\e[2K\r\e[2mUse the arrow keys to navigate:\e[0m \e[2m↓\e[0m \e[2m↑\e[0m \e[2m→\e[0m \e[2m←\e[0m \e[1B\e[2K\r\e[34m?\e[0m Select a git user: \e[1B\e[2K\r  \e[1m▸\e[0m \e[4mahmadwaleed\t<ahmed_waleed1@hotmail.com> (/Users/ahmedwaleed/.ssh/id_rsa)\e[0m\e[1B\e[2K\r    john\t<j@doe.com> (/Users/ahmedwaleed/.ssh/id_rsa)\e[1B \b\e[J\e[2K\r \b"
+  - delay: 2040
+    content: "\e[J\e[2K\r \b\e[J\e[2K\r \b\e[1A\e[2K\r\e[1A\e[2K\r\e[1A\e[2K\r\e[1A\e[2K\r\e[2K\r\e[32m\e[32m✔\e[0m \e[2mahmadwaleed\t<ahmed_waleed1@hotmail.com> (/Users/ahmedwaleed/.ssh/id_rsa)\e[0m\r\n\e[?25h\e[J\e[2K\r"
+  - delay: 54
+    content: 'ahmedwaleeds-MacBook-Pro:use-git ahmedwaleed$ '
+  - delay: 1384
+    content: gitusr
+  - delay: 811
+    content: "\r\n"
+  - delay: 7
+    content: "\e[?25l\e[2K\r\e[2mUse the arrow keys to navigate:\e[0m \e[2m↓\e[0m \e[2m↑\e[0m \e[2m→\e[0m \e[2m←\e[0m \r\n\e[2K\r\e[34m?\e[0m Select action: \r\n\e[2K\r  \e[1m▸\e[0m \e[4mSelect a git user\e[0m\r\n\e[2K\r    Add a new git user\r\n\e[2K\r    Delete an existing git user\r\n\e[J\e[2K\r \b"
+  - delay: 908
+    content: "\a\e[J\e[2K\r\e[1A\e[1A\e[1A\e[1A\e[1A\e[2K\r\e[2mUse the arrow keys to navigate:\e[0m \e[2m↓\e[0m \e[2m↑\e[0m \e[2m→\e[0m \e[2m←\e[0m \e[1B\e[2K\r\e[34m?\e[0m Select action: \e[1B\e[2K\r    Select a git user\e[1B\e[2K\r  \e[1m▸\e[0m \e[4mAdd a new git user\e[0m\e[1B\e[2K\r    Delete an existing git user\e[1B \b\e[J\e[2K\r \b"
+  - delay: 164
+    content: "\a\e[J\e[2K\r\e[1A\e[1A\e[1A\e[1A\e[1A\e[2K\r\e[2mUse the arrow keys to navigate:\e[0m \e[2m↓\e[0m \e[2m↑\e[0m \e[2m→\e[0m \e[2m←\e[0m \e[1B\e[2K\r\e[34m?\e[0m Select action: \e[1B\e[2K\r    Select a git user\e[1B\e[2K\r    Add a new git user\e[1B\e[2K\r  \e[1m▸\e[0m \e[4mDelete an existing git user\e[0m\e[1B \b\e[J\e[2K\r \b"
+  - delay: 377
+    content: "\e[J\e[2K\r \b\e[J\e[2K\r \b\e[1A\e[2K\r\e[1A\e[2K\r\e[1A\e[2K\r\e[1A\e[2K\r\e[1A\e[2K\r\e[2K\r\e[32m\e[32m✔\e[0m \e[2mDelete an existing git user\e[0m\r\n\e[?25h\e[J\e[2K\r\e[?25l\e[2K\r\e[2mUse the arrow keys to navigate:\e[0m \e[2m↓\e[0m \e[2m↑\e[0m \e[2m→\e[0m \e[2m←\e[0m \r\n\e[2K\r\e[34m?\e[0m Select a git user: \r\n\e[2K\r  \e[1m▸\e[0m \e[4mahmadwaleed\t<ahmed_waleed1@hotmail.com> (/Users/ahmedwaleed/.ssh/id_rsa)\e[0m\r\n\e[2K\r    john\t<j@doe.com> (/Users/ahmedwaleed/.ssh/id_rsa)\r\n\e[J\e[2K\r \b"
+  - delay: 2938
+    content: "\a\e[J\e[2K\r\e[1A\e[1A\e[1A\e[1A\e[2K\r\e[2mUse the arrow keys to navigate:\e[0m \e[2m↓\e[0m \e[2m↑\e[0m \e[2m→\e[0m \e[2m←\e[0m \e[1B\e[2K\r\e[34m?\e[0m Select a git user: \e[1B\e[2K\r    ahmadwaleed\t<ahmed_waleed1@hotmail.com> (/Users/ahmedwaleed/.ssh/id_rsa)\e[1B\e[2K\r  \e[1m▸\e[0m \e[4mjohn\t<j@doe.com> (/Users/ahmedwaleed/.ssh/id_rsa)\e[0m\e[1B \b\e[J\e[2K\r \b"
+  - delay: 1441
+    content: "\e[J\e[2K\r \b\e[J\e[2K\r \b\e[1A\e[2K\r\e[1A\e[2K\r\e[1A\e[2K\r\e[1A\e[2K\r\e[2K\r\e[32m\e[32m✔\e[0m \e[2mjohn\t<j@doe.com> (/Users/ahmedwaleed/.ssh/id_rsa)\e[0m\r\n\e[?25h\e[J\e[2K\rahmedwaleeds-MacBook-Pro:use-git ahmedwaleed$ "
+  - delay: 2083
+    content: gitusr
+  - delay: 734
+    content: "\r\n"
+  - delay: 7
+    content: "\e[?25l\e[2K\r\e[2mUse the arrow keys to navigate:\e[0m \e[2m↓\e[0m \e[2m↑\e[0m \e[2m→\e[0m \e[2m←\e[0m \r\n\e[2K\r\e[34m?\e[0m Select action: \r\n\e[2K\r  \e[1m▸\e[0m \e[4mSelect a git user\e[0m\r\n\e[2K\r    Add a new git user\r\n\e[2K\r    Delete an existing git user\r\n\e[J\e[2K\r \b"
+  - delay: 939
+    content: "\a\e[J\e[2K\r\e[1A\e[1A\e[1A\e[1A\e[1A\e[2K\r\e[2mUse the arrow keys to navigate:\e[0m \e[2m↓\e[0m \e[2m↑\e[0m \e[2m→\e[0m \e[2m←\e[0m \e[1B\e[2K\r\e[34m?\e[0m Select action: \e[1B\e[2K\r    Select a git user\e[1B\e[2K\r  \e[1m▸\e[0m \e[4mAdd a new git user\e[0m\e[1B\e[2K\r    Delete an existing git user\e[1B \b\e[J\e[2K\r \b"
+  - delay: 361
+    content: "\a\e[J\e[2K\r\e[1A\e[1A\e[1A\e[1A\e[1A\e[2K\r\e[2mUse the arrow keys to navigate:\e[0m \e[2m↓\e[0m \e[2m↑\e[0m \e[2m→\e[0m \e[2m←\e[0m \e[1B\e[2K\r\e[34m?\e[0m Select action: \e[1B\e[2K\r  \e[1m▸\e[0m \e[4mSelect a git user\e[0m\e[1B\e[2K\r    Add a new git user\e[1B\e[2K\r    Delete an existing git user\e[1B \b\e[J\e[2K\r \b"
+  - delay: 718
+    content: "\e[J\e[2K\r \b\e[J\e[2K\r \b\e[1A\e[2K\r\e[1A\e[2K\r\e[1A\e[2K\r\e[1A\e[2K\r\e[1A\e[2K\r\e[2K\r\e[32m\e[32m✔\e[0m \e[2mSelect a git user\e[0m\r\n\e[?25h\e[J\e[2K\r\e[?25l\e[2K\r\e[2mUse the arrow keys to navigate:\e[0m \e[2m↓\e[0m \e[2m↑\e[0m \e[2m→\e[0m \e[2m←\e[0m \r\n\e[2K\r\e[34m?\e[0m Select a git user: \r\n\e[2K\r  \e[1m▸\e[0m \e[4mahmadwaleed\t<ahmed_waleed1@hotmail.com> (/Users/ahmedwaleed/.ssh/id_rsa)\e[0m\r\n\e[J\e[2K\r \b"
+  - delay: 3059
+    content: "\e[J\e[2K\r \b\e[J\e[2K\r \b\e[1A\e[2K\r\e[1A\e[2K\r\e[1A\e[2K\r\e[2K\r\e[32m\e[32m✔\e[0m \e[2mahmadwaleed\t<ahmed_waleed1@hotmail.com> (/Users/ahmedwaleed/.ssh/id_rsa)\e[0m\r\n\e[?25h\e[J\e[2K\r"
+  - delay: 38
+    content: 'ahmedwaleeds-MacBook-Pro:use-git ahmedwaleed$ '
+  - delay: 667
+    content: l
+  - delay: 165
+    content: o
+  - delay: 152
+    content: g
+  - delay: 149
+    content: o
+  - delay: 14
+    content: u
+  - delay: 166
+    content: t
+  - delay: 419
+    content: "\r\n"
